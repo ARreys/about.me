@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Arthur Reis</title>
+</head>
+
+<body>
+    <nav>
+        <h2>Arthur Reis</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="social-media">
+        <ul>
+            <li><a target="_blank" href="https://github.com/arreys"><i data-feather="github"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/arthur-alves-78a63a161/"><i data-feather="linkedin"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/it_sArthurAlves"><i data-feather="twitter"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/oarthur.reis/"><i data-feather="instagram"></i></a></li>
+        </ul>
+    </div>
+    <div id="particles-js">
+        <div class="header-container">
+            <img src="./assets/images/about-me_image.jpeg" alt="About-me">
+            <h1>Arthur Reis</h1>
+            <h2>Front-end developer</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div id="about" class="container-about">
+            <div class="about">
+                <h2>About me</h2>
+                <p>Hello, firstly i'm very happy that you visited my personal portfolio. I'm Arthur, I've been a technology lover since kid, Actually, I work in the front-end web development area. I have an incredible love for Javascript 💛 and Vue 💚 framework.
+                    For more information about me, contact me through my social networks, I promise that I will reply as soon as possible.</p>
+            </div>
+            <div class="education">
+                <h2>Education</h2>
+                <div class="graph">
+                    <p>Information Systems in Uninassau University 2017 - Present</p>
+                    <p>Language Cultural Center <br> 2014 - 2016</p>
+                </div>
+            </div>
+        </div>
+        <div id="projects" class="projects">
+            <div id="secondary-container" class="secondary-container">
+                <i id="close" data-feather="arrow-right">ss</i>
+                <div id="div-secondary">
+                    <h2 id="titulo">--</h2>
+                    <p id="texto">--</p>
+                </div>
+                <div>
+                    <button class="link"><a target="blank" id="link">More details</a></button>
+                </div>
+            </div>
+            <h2>Projects</h2>
+            <p>These are some of the projects made by me, for more details about project click on the respective card.</p>
+            <div class="card-container">
+                <div onclick="preencher(0)" class="card">
+                    <img src="./assets/images/iasd.png" alt="logo">
+                    <p>IasdSys</p>
+                </div>
+                <div onclick="preencher(1)" class="card">
+                    <i data-feather="clipboard" style="color: blue;"></i>
+                    <p>Cientific Calc</p>
+                </div>
+                <div onclick="preencher(2)" class="card">
+                    <i data-feather="activity" style="color: red;"></i>
+                    <p>Covid Dashboard</p>
+                </div>
+                <div onclick="preencher(3)" class="card">
+                    <i data-feather="plus" style="color: purple;"></i>
+                    <p>Eu sou mais um</p>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="footer-container">
+            <h2>Contact</h2>
+            <h3>itsarthuralves@hotmail.com</h3>
+        </div>
+    </div>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace()
+    </script>
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
