@@ -10,7 +10,7 @@ const objConteudo = [{
     link: "https://github.com/ARreys/BaseTransformer-Calculator"
 }, {
     titulo: "Covid Dashboard",
-    texto: "This is a dashboard containing all the latest data from all countries (which released) and their respective status on the new corona virus, showing the number of recovered, deaths and confirmed cases. Totally responsible and functional !",
+    texto: "This is a dashboard made by me, containing all the latest data from all countries (which released) and their respective states on the new corona virus, showing the number of recovered, deaths and confirmed cases. Totally responsive and functional !",
     link: "https://arreys.github.io/Covid19_Dashboard/"
 }, {
     titulo: "Eu sou mais um",
