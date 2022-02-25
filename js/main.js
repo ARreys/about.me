@@ -7,7 +7,7 @@ const objConteudo = [{
 }, {
     titulo: "Cientific Calc",
     texto: "This is a software created to help students who are starting in the area of ​​programming and mathematical logic as well as beginning programmers. This initiative was created after a personal analysis of the need for this tool in my college class, so I created it for assistance",
-    link: "https://github.com/ARreys/BaseTransformer-Calculator"
+    link: "https://arreys.github.io/Programmer_Calculator"
 }, {
     titulo: "Covid Dashboard",
     texto: "This is a dashboard made by me, containing all the latest data from all countries (which released) and their respective states on the new corona virus, showing the number of recovered, deaths and confirmed cases. Totally responsive and functional !",
